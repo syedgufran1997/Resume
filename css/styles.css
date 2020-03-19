@@ -16,19 +16,18 @@
   width: 20%;
   height: 20%;
   border-radius: 10rem;
-  transition-delay: 0.4s;
   margin-left: 1.5rem;
+  transition-duration: 0.4s;
 }
 .name img:hover {
   width: 25%;
 }
 .name h3 {
   display: inline-block;
-  width: 40%;
   float: left;
   clear: both;
-  margin-left: 1rem;
-  margin-top: 0.5rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
   color: white;
   font-size: 1rem;
   transition-duration: 0.4s;
@@ -40,7 +39,7 @@
   float: left;
   clear: both;
   display: inline-block;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   margin-top: 0.5rem;
   color: white;
   font-size: 1.5rem;
@@ -53,12 +52,10 @@
   float: left;
   clear: both;
   display: inline-block;
-  margin-left: 1rem;
-  color: white;
-  margin-top: 1rem;
-  line-height: 1.2rem;
-  vertical-align: middle;
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
 }
+
 .id:hover {
   font-size: 1.2rem;
 }
@@ -68,8 +65,10 @@
   font-size: 1rem;
   line-height: 1.2rem;
   vertical-align: middle;
+  color: white;
+  transition-duration: 0.4s;
 }
-.id .id:hover {
+.id i:hover {
   font-size: 1.5rem;
 }
 
@@ -90,7 +89,7 @@
 .about-heading h2 {
   padding-top: 3rem;
   color: #0d1d4e;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
 }
 
 .education-details {
@@ -141,6 +140,7 @@
   height: 16%;
   margin-top: 1.5rem;
   width: 95%;
+  transition-duration: 0.5s;
 }
 .drawing img:hover {
   width: 100%;
@@ -206,5 +206,50 @@
   }
   .drawing img:hover {
     height: 20rem;
+  }
+  .name img{
+    margin-top: 4rem;
+    margin-left: 4rem;
+  }
+  .name h3 {
+    margin-left: 4rem;
+    font-size: 1.5rem;
+  }
+  .name h3:hover {
+    font-size: 2rem;
+  }
+  .name h1 {
+    margin-left: 4rem;
+    font-size: 2rem;
+  }
+  .name h1:hover {
+    font-size: 2.5rem;
+  }
+  .id i {
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .id i:hover {
+    font-size: 2rem;
+  }
+  .icons img{
+    margin-top: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .icons h3 {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+  .icons p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .font-icons i{
+    font-size: 2rem;
+    margin: 1rem 0.5rem;
+  }
   }
 }
