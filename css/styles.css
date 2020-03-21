@@ -74,7 +74,6 @@
 
 .background img {
   width: 100%;
-  /* opacity: 0.2; */
 }
 .background img:hover {
   opacity: 1;
@@ -209,7 +208,7 @@
   .drawing img:hover {
     height: 20rem;
   }
-  .name img{
+  .name img {
     margin-top: 4rem;
     margin-left: 4rem;
   }
@@ -235,7 +234,7 @@
   .id i:hover {
     font-size: 2rem;
   }
-  .icons img{
+  .icons img {
     margin-top: 1rem;
     width: 1.5rem;
     height: 1.5rem;
@@ -249,9 +248,8 @@
     font-size: 1.2rem;
   }
 
-  .font-icons i{
+  .font-icons i {
     font-size: 2rem;
     margin: 1rem 0.5rem;
-  }
   }
 }
